@@ -1,0 +1,142 @@
+        <header>
+            <div>
+                <a href="index.php"><img src="img/logo.png" alt=""></a>
+                <h1>PrimeVista</h1>
+            </div>
+            <nav>
+                <ul>
+                <a href="index.php">
+                    <li>Главная</li>
+                </a>
+                <a href="Услуги.php">
+                    <li>Услуги</li>
+                </a>
+                <a href="Команда.php">
+                    <li>Команда</li>
+                </a>
+                <a href="Контакты.php">
+                    <li>Контакты</li>
+                </a>
+                <li>
+                    <img src="img/sun.png" alt=""> <br>
+                    <ul>
+                        <li id="light">Светлая</li>
+                        <li id="dark">Темная</li>
+                    </ul>
+                </li>
+            </ul>
+            </nav>
+        </header>
+        
+        <style>
+            *{
+                margin: 0;
+            }
+
+            h1{
+                background: transparent;
+            }
+
+                        
+            header{
+                position: sticky;
+                top: 0;
+                color: #373850; 
+                height: 80px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #141525;
+                z-index: 4;
+            }
+
+            header div{
+                background: transparent;
+                display: flex;
+            }
+            header div h1{
+                color: #ffffff;
+                margin: auto 10px;
+                /* font-family: ; */
+            }
+
+            header>div>a>img{
+                height: 50px;
+                width: 50px;
+                background-color: #ffffff;
+                border-radius: 50%;
+                color: black;
+            }
+
+            header a{
+                text-decoration: none;
+                color: white;
+                background: transparent;
+
+            }
+            nav{
+                background: transparent;
+            }
+
+            nav>ul{
+                display: flex;
+                background: transparent;
+                
+            }
+
+            nav>ul>a{
+                display: flex;
+                align-items: center;
+            }
+
+
+
+            header li{
+                color: white;
+                list-style: none;
+                margin: 0 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                background: transparent;
+            }
+
+            nav>ul>li>ul{
+                color: white;
+                position: absolute;
+                background: transparent;
+                padding: 0;
+                margin: 10px 0;
+                display: none;
+                
+            }
+
+
+            nav>ul>li:hover>ul{
+                display: initial;
+                color: white;
+                position: absolute;
+                background: transparent;
+                padding: 10px 0;
+                margin: 0;
+                z-index: 3;
+            }
+
+            nav>ul>li>ul>li{
+                display: block;
+                margin: 0;
+                padding: 10px 30px 10px 10px;
+                background-color: #141525;
+                cursor: pointer;
+            }
+
+            nav>ul>li>img{
+                height: 30px;
+                width: 30px;
+                background: transparent;
+                cursor: pointer;
+            }
+            nav>ul>li>ul>li:hover{
+                background-color: rgb(64, 65, 88);
+                cursor: pointer;
+            }
+        </style>

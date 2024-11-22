@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.contact-info div {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-form{
+    width: 60%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    max-width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-self: right;
+}
+
+.contact-form button:hover {
+    background-color: #3a3a3a;
+}
+
+
+.white::placeholder{
+    color: white;
+}
+
+.gray::placeholder{
+    color: #757575;
+}   
+
+/* Стили для карты 
+.map {
+    width: 100%;
+    height: 400px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+} */
